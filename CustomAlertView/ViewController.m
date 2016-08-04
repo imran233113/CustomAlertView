@@ -28,7 +28,7 @@
 - (IBAction)hitButtonClicked:(id)sender
 {
     
-    IKAlertView *alert = [[IKAlertView alloc] initWithFrame:CGRectMake(20, 100, 280, 100)];
+    IKAlertView *alert = [[IKAlertView alloc] initWithFrame:CGRectMake(50, 150, 280, 100)];
     [self.view addSubview:alert];
     [alert show];
 }
