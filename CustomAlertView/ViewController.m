@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "IKAlertView.h"
+
 
 @interface ViewController ()
 
@@ -14,10 +16,24 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+#pragma mark - Lifecycle
+- (void)viewDidLoad
+{
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+#pragma mark - Action Methods
+
+- (IBAction)hitButtonClicked:(id)sender
+{
+    
+    IKAlertView *alert = [[IKAlertView alloc] initWithFrame:CGRectMake(20, 100, 280, 100)];
+    [self.view addSubview:alert];
+    [alert show];
+}
+
+#pragma mark - Memory Management
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

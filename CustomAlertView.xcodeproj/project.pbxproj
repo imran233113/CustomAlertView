@@ -15,6 +15,7 @@
 		1D368C4E1D5387AB001DC0D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D368C4C1D5387AB001DC0D1 /* LaunchScreen.storyboard */; };
 		1D368C591D5387AB001DC0D1 /* CustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D368C581D5387AB001DC0D1 /* CustomAlertViewTests.m */; };
 		1D368C641D5387AB001DC0D1 /* CustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D368C631D5387AB001DC0D1 /* CustomAlertViewUITests.m */; };
+		1D368C731D53880C001DC0D1 /* IKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D368C721D53880C001DC0D1 /* IKAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1D368C5F1D5387AB001DC0D1 /* CustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D368C631D5387AB001DC0D1 /* CustomAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewUITests.m; sourceTree = "<group>"; };
 		1D368C651D5387AB001DC0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D368C711D53880C001DC0D1 /* IKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKAlertView.h; sourceTree = "<group>"; };
+		1D368C721D53880C001DC0D1 /* IKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		1D368C3D1D5387AB001DC0D1 /* CustomAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				1D368C711D53880C001DC0D1 /* IKAlertView.h */,
+				1D368C721D53880C001DC0D1 /* IKAlertView.m */,
 				1D368C411D5387AB001DC0D1 /* AppDelegate.h */,
 				1D368C421D5387AB001DC0D1 /* AppDelegate.m */,
 				1D368C441D5387AB001DC0D1 /* ViewController.h */,
@@ -273,6 +278,7 @@
 				1D368C461D5387AB001DC0D1 /* ViewController.m in Sources */,
 				1D368C431D5387AB001DC0D1 /* AppDelegate.m in Sources */,
 				1D368C401D5387AB001DC0D1 /* main.m in Sources */,
+				1D368C731D53880C001DC0D1 /* IKAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
