@@ -16,6 +16,7 @@
 		1D368C591D5387AB001DC0D1 /* CustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D368C581D5387AB001DC0D1 /* CustomAlertViewTests.m */; };
 		1D368C641D5387AB001DC0D1 /* CustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D368C631D5387AB001DC0D1 /* CustomAlertViewUITests.m */; };
 		1D368C731D53880C001DC0D1 /* IKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D368C721D53880C001DC0D1 /* IKAlertView.m */; };
+		1D368C761D53BC8D001DC0D1 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D368C751D53BC8D001DC0D1 /* SecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		1D368C651D5387AB001DC0D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D368C711D53880C001DC0D1 /* IKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKAlertView.h; sourceTree = "<group>"; };
 		1D368C721D53880C001DC0D1 /* IKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKAlertView.m; sourceTree = "<group>"; };
+		1D368C741D53BC8D001DC0D1 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		1D368C751D53BC8D001DC0D1 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,8 @@
 				1D368C441D5387AB001DC0D1 /* ViewController.h */,
 				1D368C451D5387AB001DC0D1 /* ViewController.m */,
 				1D368C471D5387AB001DC0D1 /* Main.storyboard */,
+				1D368C741D53BC8D001DC0D1 /* SecondVC.h */,
+				1D368C751D53BC8D001DC0D1 /* SecondVC.m */,
 				1D368C4A1D5387AB001DC0D1 /* Assets.xcassets */,
 				1D368C4C1D5387AB001DC0D1 /* LaunchScreen.storyboard */,
 				1D368C4F1D5387AB001DC0D1 /* Info.plist */,
@@ -278,6 +283,7 @@
 				1D368C461D5387AB001DC0D1 /* ViewController.m in Sources */,
 				1D368C431D5387AB001DC0D1 /* AppDelegate.m in Sources */,
 				1D368C401D5387AB001DC0D1 /* main.m in Sources */,
+				1D368C761D53BC8D001DC0D1 /* SecondVC.m in Sources */,
 				1D368C731D53880C001DC0D1 /* IKAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,6 +508,7 @@
 				1D368C6A1D5387AB001DC0D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D368C6B1D5387AB001DC0D1 /* Build configuration list for PBXNativeTarget "CustomAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +517,7 @@
 				1D368C6D1D5387AB001DC0D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D368C6E1D5387AB001DC0D1 /* Build configuration list for PBXNativeTarget "CustomAlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +526,7 @@
 				1D368C701D5387AB001DC0D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
